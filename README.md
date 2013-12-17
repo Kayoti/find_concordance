@@ -1,8 +1,8 @@
 concordance.txt
 ========================================
 ProgramDescription
-A concordance is a certain kind of list of the all words in a file. We will
-display a concordance in the style shown below, which we shall refer to as
+A concordance is a certain kind of list of all words in a file. it will
+display a concordance in the style shown below, which shall be refer to as
 "movie credit" format, and in which each word appears right-justified within
 a fieldwidth of 15 spaces.
 
@@ -23,8 +23,7 @@ numbers on which any word appears are listed in increasing numerical order.
 This program may take zero to three command-line parameters, and thus may be
 used in any one of the following four ways:
 
-                                                                  Screen 1 of 2
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                                                  
 prompt> find_concordance.exe
 This first way just displays the ID screen and this information. None of the
 other options causes the ID screen and this information to be displayed.
@@ -47,7 +46,4 @@ between cc_out.txt and cc_other.txt is written to a file named differences.txt.
 
 If any of the required files does not exist, the program simply terminates,
 with an appropriate message.
-                                                                  Screen 2 of 2
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-----------------------------------------
-========================================
+
